@@ -1,0 +1,48 @@
+.Header{
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    
+    background: #C4C4C4;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Header > h1{
+    position: absolute;
+    width: 323px;
+    height: 49px;
+    margin-left: 120px;
+    margin-top: 51px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    
+    color: #000000;
+}
+
+.Header > button{
+    position: absolute;
+    width: 323px;
+    height: 75px;
+    left: 997px;
+    top: 38px;
+    
+    background: #FF8A00;
+    border-radius: 50px;
+}
+
+.Body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 559px));
+    justify-content: center;
+    gap: 72px;
+    margin-top: 180px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
