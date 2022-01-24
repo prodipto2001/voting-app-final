@@ -1,16 +1,17 @@
 .Header{
-    position: absolute;
-    width: 100vw;
-    height: 150px;
-    left: 0px;
-    top: 0px;
-    
+    display: flex;
     background: #C4C4C4;
     border-radius: 0px 0px 20px 20px;
+    width: auto;
+    height: 150px;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .Header > h1{
-    position: absolute;
+    display: flex;
     width: 323px;
     height: 49px;
     margin-left: 120px;
@@ -26,12 +27,12 @@
 }
 
 .Header > button{
-    position: absolute;
+    padding: 10px 120px;
+    margin-right: 120px;
     width: 323px;
     height: 75px;
-    left: 997px;
-    top: 38px;
-    
+    cursor: pointer;
+    align-items: center;
     background: #FF8A00;
     border-radius: 50px;
 }
